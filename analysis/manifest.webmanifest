@@ -1,0 +1,26 @@
+{
+  "name": "WIN5分析",
+  "short_name": "WIN5分析",
+  "description": "WIN5の過去分析と予想評価",
+  "id": "./index.html?app=analysis",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f0f5f3",
+  "theme_color": "#194b43",
+  "lang": "ja",
+  "icons": [
+    {
+      "src": "./icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "./icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
