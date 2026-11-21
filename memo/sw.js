@@ -1,4 +1,4 @@
-const CACHE='win5-memo-pwa-v2';
+const CACHE='win5-memo-pwa-v4-races';
 const ASSETS=['./','./index.html','./manifest.webmanifest','./icon-192.png','./icon-512.png','./apple-touch-icon.png','./races.json'];
 self.addEventListener('install',event=>{event.waitUntil(caches.open(CACHE).then(c=>c.addAll(ASSETS)).then(()=>self.skipWaiting()))});
 self.addEventListener('activate',event=>{event.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k.startsWith('win5-memo-')&&k!==CACHE).map(k=>caches.delete(k)))).then(()=>self.clients.claim()))});
