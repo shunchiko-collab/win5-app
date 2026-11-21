@@ -1,13 +1,13 @@
 {
-  "name": "WIN5購入メモ",
-  "short_name": "WIN5購入メモ",
-  "description": "WIN5の購入メモ",
-  "id": "./index.html?app=memo",
+  "name": "WIN5分析",
+  "short_name": "WIN5分析",
+  "description": "WIN5の過去分析と予想評価",
+  "id": "./index.html?app=analysis",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
-  "background_color": "#eaf4e8",
-  "theme_color": "#1b3654",
+  "background_color": "#f0f5f3",
+  "theme_color": "#194b43",
   "lang": "ja",
   "icons": [
     {
